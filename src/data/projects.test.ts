@@ -1,0 +1,1 @@
+import { describe, expect, it } from 'vitest'; import { projects } from './projects'; describe('projects data',()=>{it('uses unique slugs for all featured projects',()=>{expect(new Set(projects.map(p=>p.slug)).size).toBe(projects.length);});});

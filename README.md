@@ -45,7 +45,7 @@ Desktop uses a split hero with the portrait at the edge of the viewport. Tablet 
 ## SEO & Social
 The reusable `Seo` component manages page title, description, Open Graph and Twitter card metadata. `npm run build` also generates `robots.txt` and `sitemap.xml`.
 
-Before deployment, copy `.env.example` to `.env` and replace `https://your-domain.com` with the real production domain. Add a final `public/social-preview.jpg` when the preferred Open Graph artwork is selected.
+Before deployment, copy `.env.example` to `.env` and replace `https://laibaayyaz.com` with the real production domain. Add a final `public/social-preview.jpg` when the preferred Open Graph artwork is selected.
 
 ## Local Development
 ```bash
@@ -94,3 +94,12 @@ npm run dev
 ```
 
 Then open the local URL printed by Vite, normally `http://localhost:5173`.
+
+## Production / Git note
+
+`node_modules/` and `dist/` are intentionally excluded from Git. The repository contains source code and optimized portfolio assets only. Run `npm ci` after cloning and `npm run build` to create the production `dist/` folder. See `DEPLOYMENT.md` for GitHub, Vercel, Netlify, and traditional shared-hosting instructions.
+
+
+## Production deployment
+
+The production domain is **https://laibaayyaz.com** on Namecheap shared hosting. See `DEPLOYMENT.md` or run `./deploy-namecheap.ps1` from PowerShell to install, check, and build the production bundle.

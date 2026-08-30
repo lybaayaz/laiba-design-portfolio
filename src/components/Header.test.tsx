@@ -1,0 +1,2 @@
+import { render, screen } from '@testing-library/react'; import { MemoryRouter } from 'react-router-dom'; import { describe, expect, it } from 'vitest'; import Header from './Header';
+describe('Header',()=>{it('identifies the Vancouver location and contact action',()=>{render(<MemoryRouter><Header/></MemoryRouter>);expect(screen.getByText('Vancouver, BC')).toBeTruthy();expect(screen.getByText(/Let's talk/)).toBeTruthy();});});
