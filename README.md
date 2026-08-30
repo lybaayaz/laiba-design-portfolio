@@ -4,7 +4,7 @@ A hand-coded portfolio focused on graphic design, print production, prepress, br
 
 ## Live website
 
-The GitHub Pages link will be added after the first deployment.
+https://lybaayaz.github.io/laiba-design-portfolio/
 
 ## Portfolio focus
 
