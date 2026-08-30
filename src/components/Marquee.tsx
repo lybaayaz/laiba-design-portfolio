@@ -1,0 +1,2 @@
+const items = ['7+ YEARS IN PRACTICE','1,500+ PROJECTS DELIVERED','PRINT + PACKAGING + PREPRESS','BRANDING + VISUAL COMMUNICATION','BASED IN VANCOUVER, BC'];
+export default function Marquee(){ const doubled=[...items,...items]; return <div className="marquee" aria-label="Portfolio highlights"><div className="marquee-track">{doubled.map((item,i)=><span key={`${item}-${i}`}>{item}<b aria-hidden="true">·</b></span>)}</div></div>; }

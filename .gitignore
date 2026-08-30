@@ -1,7 +1,31 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Environment files
 .env
 .env.local
-.DS_Store
-coverage
+.env.*.local
+
+# Test / coverage output
+coverage/
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Vite / TypeScript caches
+.vite/
+*.tsbuildinfo

@@ -1,0 +1,1 @@
+import { Link } from 'react-router-dom'; import Header from '../components/Header'; export default function NotFoundPage(){return <><Header/><main className="not-found"><div><span className="kicker">404</span><h1>This page wandered off.</h1><p>The portfolio is still here. The URL, less so.</p><Link className="btn primary" to="/">Back home →</Link></div></main></>}
