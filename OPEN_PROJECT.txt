@@ -1,0 +1,12 @@
+HOW TO OPEN THIS REACT PROJECT
+
+This is a React + TypeScript + Vite source project. Do not double-click index.html.
+
+1. Install Node.js LTS from https://nodejs.org
+2. Open this folder in VS Code.
+3. Open Terminal > New Terminal.
+4. Run: npm install
+5. Run: npm run dev
+6. Open the localhost address Vite prints in the terminal (usually http://localhost:5173).
+
+For a version that opens by double-clicking index.html, use the separate Browser Preview ZIP provided alongside this project.
